@@ -1,0 +1,11 @@
+== Elementary Cellular Automata
+
+Elementary Cellular Automata is an iOS 5 implementation of Rule 30 elementary cellular automata.  For more information about cellular automata, please see http://en.wikipedia.org/wiki/Cellular_automaton
+
+== Contact
+
+Brian Temple <brian@briantemple.com>
+
+== License
+
+Elementary Cellular Automata is released under the MIT license.  Check the LICENSE file for details.

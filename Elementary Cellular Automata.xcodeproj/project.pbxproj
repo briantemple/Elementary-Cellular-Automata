@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D3041A28148018D70035C2F7 /* iPadAppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = D3041A25148018D70035C2F7 /* iPadAppIcon.png */; };
+		D3041A29148018D70035C2F7 /* iPhoneAppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = D3041A26148018D70035C2F7 /* iPhoneAppIcon.png */; };
+		D3041A2A148018D70035C2F7 /* iPhoneAppIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3041A27148018D70035C2F7 /* iPhoneAppIcon@2x.png */; };
+		D39BF3FE147F33610051F225 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D39BF3FD147F33610051F225 /* UIKit.framework */; };
+		D39BF400147F33610051F225 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D39BF3FF147F33610051F225 /* Foundation.framework */; };
+		D39BF402147F33610051F225 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D39BF401147F33610051F225 /* CoreGraphics.framework */; };
+		D39BF408147F33610051F225 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D39BF406147F33610051F225 /* InfoPlist.strings */; };
+		D39BF40A147F33610051F225 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D39BF409147F33610051F225 /* main.m */; };
+		D39BF40E147F33610051F225 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D39BF40D147F33610051F225 /* AppDelegate.m */; };
+		D39BF411147F33610051F225 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D39BF40F147F33610051F225 /* MainStoryboard_iPhone.storyboard */; };
+		D39BF414147F33610051F225 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D39BF412147F33610051F225 /* MainStoryboard_iPad.storyboard */; };
+		D39BF417147F33610051F225 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D39BF416147F33610051F225 /* MainViewController.m */; };
+		D39BF41A147F33610051F225 /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D39BF419147F33610051F225 /* FlipsideViewController.m */; };
+		D39BF422147F34A20051F225 /* GameState.m in Sources */ = {isa = PBXBuildFile; fileRef = D39BF421147F34A20051F225 /* GameState.m */; };
+		D39BF435147FF1090051F225 /* GameView.m in Sources */ = {isa = PBXBuildFile; fileRef = D39BF434147FF1090051F225 /* GameView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D3041A25148018D70035C2F7 /* iPadAppIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPadAppIcon.png; sourceTree = "<group>"; };
+		D3041A26148018D70035C2F7 /* iPhoneAppIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhoneAppIcon.png; sourceTree = "<group>"; };
+		D3041A27148018D70035C2F7 /* iPhoneAppIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhoneAppIcon@2x.png"; sourceTree = "<group>"; };
+		D39BF3F9147F33610051F225 /* Elementary Cellular Automata.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Elementary Cellular Automata.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D39BF3FD147F33610051F225 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D39BF3FF147F33610051F225 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D39BF401147F33610051F225 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D39BF405147F33610051F225 /* Elementary Cellular Automata-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Elementary Cellular Automata-Info.plist"; sourceTree = "<group>"; };
+		D39BF407147F33610051F225 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D39BF409147F33610051F225 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D39BF40B147F33610051F225 /* Elementary Cellular Automata-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Elementary Cellular Automata-Prefix.pch"; sourceTree = "<group>"; };
+		D39BF40C147F33610051F225 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D39BF40D147F33610051F225 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D39BF410147F33610051F225 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		D39BF413147F33610051F225 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		D39BF415147F33610051F225 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		D39BF416147F33610051F225 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		D39BF418147F33610051F225 /* FlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlipsideViewController.h; sourceTree = "<group>"; };
+		D39BF419147F33610051F225 /* FlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
+		D39BF420147F34A20051F225 /* GameState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameState.h; sourceTree = "<group>"; };
+		D39BF421147F34A20051F225 /* GameState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameState.m; sourceTree = "<group>"; };
+		D39BF433147FF1090051F225 /* GameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameView.h; sourceTree = "<group>"; };
+		D39BF434147FF1090051F225 /* GameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D39BF3F6147F33610051F225 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D39BF3FE147F33610051F225 /* UIKit.framework in Frameworks */,
+				D39BF400147F33610051F225 /* Foundation.framework in Frameworks */,
+				D39BF402147F33610051F225 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D39BF3EE147F33610051F225 = {
+			isa = PBXGroup;
+			children = (
+				D39BF403147F33610051F225 /* Elementary Cellular Automata */,
+				D39BF3FC147F33610051F225 /* Frameworks */,
+				D39BF3FA147F33610051F225 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D39BF3FA147F33610051F225 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D39BF3F9147F33610051F225 /* Elementary Cellular Automata.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D39BF3FC147F33610051F225 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D39BF3FD147F33610051F225 /* UIKit.framework */,
+				D39BF3FF147F33610051F225 /* Foundation.framework */,
+				D39BF401147F33610051F225 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D39BF403147F33610051F225 /* Elementary Cellular Automata */ = {
+			isa = PBXGroup;
+			children = (
+				D39BF40C147F33610051F225 /* AppDelegate.h */,
+				D39BF40D147F33610051F225 /* AppDelegate.m */,
+				D39BF40F147F33610051F225 /* MainStoryboard_iPhone.storyboard */,
+				D39BF412147F33610051F225 /* MainStoryboard_iPad.storyboard */,
+				D39BF415147F33610051F225 /* MainViewController.h */,
+				D39BF416147F33610051F225 /* MainViewController.m */,
+				D39BF418147F33610051F225 /* FlipsideViewController.h */,
+				D39BF419147F33610051F225 /* FlipsideViewController.m */,
+				D39BF433147FF1090051F225 /* GameView.h */,
+				D39BF434147FF1090051F225 /* GameView.m */,
+				D39BF420147F34A20051F225 /* GameState.h */,
+				D39BF421147F34A20051F225 /* GameState.m */,
+				D39BF404147F33610051F225 /* Supporting Files */,
+			);
+			path = "Elementary Cellular Automata";
+			sourceTree = "<group>";
+		};
+		D39BF404147F33610051F225 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3041A25148018D70035C2F7 /* iPadAppIcon.png */,
+				D3041A26148018D70035C2F7 /* iPhoneAppIcon.png */,
+				D3041A27148018D70035C2F7 /* iPhoneAppIcon@2x.png */,
+				D39BF405147F33610051F225 /* Elementary Cellular Automata-Info.plist */,
+				D39BF406147F33610051F225 /* InfoPlist.strings */,
+				D39BF409147F33610051F225 /* main.m */,
+				D39BF40B147F33610051F225 /* Elementary Cellular Automata-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D39BF3F8147F33610051F225 /* Elementary Cellular Automata */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D39BF41D147F33610051F225 /* Build configuration list for PBXNativeTarget "Elementary Cellular Automata" */;
+			buildPhases = (
+				D39BF3F5147F33610051F225 /* Sources */,
+				D39BF3F6147F33610051F225 /* Frameworks */,
+				D39BF3F7147F33610051F225 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Elementary Cellular Automata";
+			productName = "Elementary Cellular Automata";
+			productReference = D39BF3F9147F33610051F225 /* Elementary Cellular Automata.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D39BF3F0147F33610051F225 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = D39BF3F3147F33610051F225 /* Build configuration list for PBXProject "Elementary Cellular Automata" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D39BF3EE147F33610051F225;
+			productRefGroup = D39BF3FA147F33610051F225 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D39BF3F8147F33610051F225 /* Elementary Cellular Automata */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D39BF3F7147F33610051F225 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D39BF408147F33610051F225 /* InfoPlist.strings in Resources */,
+				D39BF411147F33610051F225 /* MainStoryboard_iPhone.storyboard in Resources */,
+				D39BF414147F33610051F225 /* MainStoryboard_iPad.storyboard in Resources */,
+				D3041A28148018D70035C2F7 /* iPadAppIcon.png in Resources */,
+				D3041A29148018D70035C2F7 /* iPhoneAppIcon.png in Resources */,
+				D3041A2A148018D70035C2F7 /* iPhoneAppIcon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D39BF3F5147F33610051F225 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D39BF40A147F33610051F225 /* main.m in Sources */,
+				D39BF40E147F33610051F225 /* AppDelegate.m in Sources */,
+				D39BF417147F33610051F225 /* MainViewController.m in Sources */,
+				D39BF41A147F33610051F225 /* FlipsideViewController.m in Sources */,
+				D39BF422147F34A20051F225 /* GameState.m in Sources */,
+				D39BF435147FF1090051F225 /* GameView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D39BF406147F33610051F225 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D39BF407147F33610051F225 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D39BF40F147F33610051F225 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D39BF410147F33610051F225 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		D39BF412147F33610051F225 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D39BF413147F33610051F225 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D39BF41B147F33610051F225 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D39BF41C147F33610051F225 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D39BF41E147F33610051F225 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Elementary Cellular Automata/Elementary Cellular Automata-Prefix.pch";
+				INFOPLIST_FILE = "Elementary Cellular Automata/Elementary Cellular Automata-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D39BF41F147F33610051F225 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Elementary Cellular Automata/Elementary Cellular Automata-Prefix.pch";
+				INFOPLIST_FILE = "Elementary Cellular Automata/Elementary Cellular Automata-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D39BF3F3147F33610051F225 /* Build configuration list for PBXProject "Elementary Cellular Automata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D39BF41B147F33610051F225 /* Debug */,
+				D39BF41C147F33610051F225 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D39BF41D147F33610051F225 /* Build configuration list for PBXNativeTarget "Elementary Cellular Automata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D39BF41E147F33610051F225 /* Debug */,
+				D39BF41F147F33610051F225 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D39BF3F0147F33610051F225 /* Project object */;
+}
